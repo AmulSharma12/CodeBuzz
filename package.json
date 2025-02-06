@@ -1,0 +1,25 @@
+{
+  "name": "codebuzz",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "prod": "node backend/server.js"
+  },
+  "keywords": [],
+  "author": "Amul Sharma",
+  "license": "ISC",
+  "description": "Code Buzz is a coders media platform",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
